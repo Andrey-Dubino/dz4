@@ -1,0 +1,38 @@
+.container_card{
+  width: 800px;
+  margin-bottom: 20px;
+   border: 1px solid #fff;
+   padding: 10px;
+   display: flex;
+   .wr_img{
+    flex-basis: 20%;
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+   }
+   .wr_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    padding-bottom: 100px;
+   }
+   .title{
+    margin-left: 20px;
+   }
+   .price{
+    margin-bottom: 10px;
+    margin-left: 20px;
+   }
+   .wt_button{
+    margin-left: 20px;
+    span{
+      padding: 10px 20px ;
+    }
+    .basket{
+      margin-top: 15px;
+     }
+   }
+}
